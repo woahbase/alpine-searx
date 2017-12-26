@@ -10,7 +10,7 @@ USERNAME  := woahbase
 PUID       := $(shell id -u)
 PGID       := $(shell id -g)# gid 100(users) usually pre exists
 
-DOCKERSRC := $(OPSYS)-python2#
+DOCKERSRC := $(OPSYS)-python3#
 DOCKEREPO := $(OPSYS)-$(SVCNAME)
 IMAGETAG  := $(USERNAME)/$(DOCKEREPO):$(ARCH)
 
