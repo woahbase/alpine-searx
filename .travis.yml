@@ -13,7 +13,8 @@ before_script:
 - docker --version
 - make --version
 script:
-- travis_wait 25 make ARCH=${ARCH} PUID=${PUID} PGID=${PGID} build test
+- travis_wait 25 make ARCH=${ARCH} PUID=${PUID} PGID=${PGID} build 
+- make ARCH=${ARCH} PUID=${PUID} PGID=${PGID} test
 after_success:
 - docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
 - make ARCH=${ARCH} push
