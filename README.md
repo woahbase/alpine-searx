@@ -58,8 +58,13 @@ architecture, e.g for an x86_64 machine..
 # make
 docker run --rm -it \
   --name docker_searx --hostname searx \
-  woahbase/alpine-searx:x86_64 \
-  bash
+  -c 512 -m 512m \
+  -e PGID=100 -e PUID=1000 \
+  -p 8888:8888 \
+  -v data:/data \
+  -v /etc/hosts:/etc/hosts:ro \
+  -v /etc/localtime:/etc/localtime:ro \
+  woahbase/alpine-searx:x86_64
 
 # make stop
 docker stop -t 2 docker_searx
