@@ -16,7 +16,7 @@ RUN set -xe \
     && apk add --no-cache -t build-dependencies \
 		curl \
 	    build-base \
-	    python-dev \
+	    python3-dev \
 	    libffi-dev \
 	    libxslt-dev \
 	    libxml2-dev \
