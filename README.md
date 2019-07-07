@@ -232,8 +232,8 @@ Maintained by [WOAHBase][204].
 [258]: https://images.microbadger.com/badges/version/woahbase/alpine-searx:armhf.svg
 [259]: https://images.microbadger.com/badges/image/woahbase/alpine-searx:armhf.svg
 
-[256]: https://images.microbadger.com/badges/version/woahbase/alpine-searx:armv7l.svg
-[257]: https://images.microbadger.com/badges/image/woahbase/alpine-searx:armv7l.svg
+[260]: https://images.microbadger.com/badges/version/woahbase/alpine-searx:armv7l.svg
+[261]: https://images.microbadger.com/badges/image/woahbase/alpine-searx:armv7l.svg
 
-[258]: https://images.microbadger.com/badges/version/woahbase/alpine-searx:aarch64.svg
-[259]: https://images.microbadger.com/badges/image/woahbase/alpine-searx:aarch64.svg
+[262]: https://images.microbadger.com/badges/version/woahbase/alpine-searx:aarch64.svg
+[263]: https://images.microbadger.com/badges/image/woahbase/alpine-searx:aarch64.svg
