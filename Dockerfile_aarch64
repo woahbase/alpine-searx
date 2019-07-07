@@ -9,7 +9,7 @@ ENV BASE_URL=False IMAGE_PROXY=False
 RUN set -xe \
     && apk add -Uu --no-cache --purge \
 	    ca-certificates \
-	    curl \
+            curl \
 	    libxml2 \
 	    libxslt \
 	    openssl \
