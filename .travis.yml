@@ -15,7 +15,7 @@ before_script:
 - docker --version
 - make --version
 script:
-- travis_wait 30 make ARCH=${ARCH} BUILD_NUMBER=${TRAVIS_BUILD_NUMBER} BRANCH=${TRAVIS_BRANCH} PUID=${PUID} PGID=${PGID} build 
+- travis_wait 40 make ARCH=${ARCH} BUILD_NUMBER=${TRAVIS_BUILD_NUMBER} BRANCH=${TRAVIS_BRANCH} PUID=${PUID} PGID=${PGID} build 
 - make ARCH=${ARCH} PUID=${PUID} PGID=${PGID} test
 after_success:
 - docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
